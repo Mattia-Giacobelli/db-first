@@ -10,6 +10,6 @@
 - fuel VARCHAR(10) NOTNULL
 - condition VARCHAR(5) NOTNULL
 - description TEXT NULL
-- price SMALLINT NOTNULL
+- price FLOAT(8,2) NOTNULL
 - created_at DATETIME NOTNULL
 - updated_at DATETIME NOTNULL
